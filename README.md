@@ -1,4 +1,4 @@
-[nebari-mlflow-repo]: https://github.com/nebari-dev/nebari-mlflow-pack
+# Nebari MLflow Pack
 
 Deploys [MLflow](https://mlflow.org/) on [Nebari](https://nebari.dev) with
 Keycloak authentication, PostgreSQL backend storage, and automatic TLS.
