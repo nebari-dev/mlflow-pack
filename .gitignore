@@ -28,7 +28,10 @@ Thumbs.db
 # Claude
 CLAUDE.md
 
-node_modules/
-build/
-.docusaurus/
-.cache-loader/
+# Docs (Astro)
+docs/node_modules/
+docs/dist/
+docs/.astro/
+docs/npm-debug.log*
+docs/.env
+docs/.env.production
