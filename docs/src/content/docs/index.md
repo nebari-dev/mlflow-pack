@@ -1,6 +1,6 @@
 ---
 title: Introduction
-description: Documentation for the Nebari MLflow Pack - a Helm chart that deploys MLflow on Nebari with Keycloak authentication, PostgreSQL, and TLS.
+description: "MLflow experiment tracking and model registry with Keycloak authentication, a PostgreSQL backend, and automatic TLS."
 ---
 
 The Nebari MLflow Pack deploys [MLflow](https://mlflow.org/) on

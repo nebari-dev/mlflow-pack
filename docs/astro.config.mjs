@@ -21,7 +21,7 @@ export default defineConfig({
   integrations: [
     starlight({
       title: 'Nebari MLflow Pack',
-      description: 'Deploy MLflow on Nebari with Keycloak authentication, PostgreSQL backend storage, and automatic TLS.',
+      description: 'MLflow experiment tracking and model registry with Keycloak authentication, a PostgreSQL backend, and automatic TLS.',
       // Shared Nebari identity (brand colors, fonts, logo, favicon, footer, and
       // GitHub social link) comes from the @nebari/starlight theme plugin. On the
       // portal the header logo returns users to the pack catalog.
