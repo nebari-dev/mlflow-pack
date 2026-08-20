@@ -117,6 +117,25 @@ kubectl describe nebariapp -n mlflow
 
 Check conditions: `RoutingReady`, `TLSReady`, `AuthReady` should all be `True`.
 
+## Documentation
+
+The docs site lives in [`docs/`](docs/) and is built with [Astro](https://astro.build) +
+[Starlight](https://starlight.astro.build) using the shared `@nebari/starlight` theme. It
+deploys to [packs.nebari.dev/mlflow-pack/](https://packs.nebari.dev/mlflow-pack/) on every
+merge to `main`; pull requests that touch `docs/` get a preview URL posted as a comment.
+
+```bash
+cd docs
+npm ci
+npm run dev     # dev server with hot reload at http://localhost:4321
+npm run build   # static build into docs/dist/
+npm test        # unit tests
+```
+
+Pages live in `docs/src/content/docs/` - each `.md` or `.mdx` file becomes a page, and the
+sidebar is configured in `docs/astro.config.mjs`. See [`docs/README.md`](docs/README.md) for
+details.
+
 ## License
 
 Apache 2.0 - see [LICENSE](LICENSE).
